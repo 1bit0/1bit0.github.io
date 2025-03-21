@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html {
+        background-color: black;
+      }
+      h1 {
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: white;
+      }
+      p {
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="start">Click here</button>
+    <script>
+      let button = document.getElementById("start");
+      button.onclick = function(){
+        setInterval(() => {
+          location.reload();
+        }, 0);
+      }
+    </script>
+  </body>
+</html>
